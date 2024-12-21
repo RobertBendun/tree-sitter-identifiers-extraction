@@ -1,0 +1,17 @@
+[package]
+name = "tree-sitter-identifiers-extraction"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+cc="*"
+
+[dependencies]
+streaming-iterator = "0.1.9"
+tree-sitter = "0.24"
+tree-sitter-c = "0.23.4"
+tree-sitter-cpp = "0.23.4"
+tree-sitter-python = "0.23.5"
+tree-sitter-rust = "0.23"
